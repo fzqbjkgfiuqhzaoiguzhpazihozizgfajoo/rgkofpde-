@@ -19,11 +19,11 @@ client.user.setActivity(argresult , {type:'PLAYING'});
 }
   client.on('message', message => {//iiHouSSaM#9494
         if (!developers.includes(message.author.id)) return;//iiHouSSaM#9494
-  if (message.content === 'ip') {//iiHouSSaM#9494
+  if (message.content === 'Khaled') {//iiHouSSaM#9494
 
 //if (!channel) return generale.join() .then(connection => message.channel.send(` \` ** Done.:white_check_mark:  ** `));  
 
-  let channel = client.channels.get('519599123435880449');//iiHouSSaM#9494
+  let channel = client.channels.get('522550021703467114');//iiHouSSaM#9494
 
 
   channel.join()//iiHouSSaM#9494
