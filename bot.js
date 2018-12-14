@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const developers = ['463698464845594628','519599123435880449'];
+const developers = ['463698464845594628','437836985659293707'];
 
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
@@ -23,7 +23,7 @@ client.user.setActivity(argresult , {type:'PLAYING'});
 
 //if (!channel) return generale.join() .then(connection => message.channel.send(` \` ** Done.:white_check_mark:  ** `));  
 
-  let channel = client.channels.get('523208758797533184');//iiHouSSaM#9494
+  let channel = client.channels.get('437836985659293707');//iiHouSSaM#9494
 
 
   channel.join()//iiHouSSaM#9494
