@@ -44,7 +44,7 @@ client.user.setActivity(argresult , {type:'PLAYING'});
 
 client.on('message', message => {
 if(message.author.id !== '463698464845594628') return;
-    if (message.content.startsWith('ؤء') {
+    if (message.content.startsWith('s')) {
         message.channel.send(`و عليككم ألسلآآم و رححمة آلله و بركآأتته ·`)
         message.delete()
     }
@@ -58,7 +58,7 @@ if(message.author.id !== '463698464845594628') return;
     });
 client.on('message', message => {
 if(message.author.id !== '463698464845594628') return;
-    if (message.content.startsWith('هأ')) {
+    if (message.content.startsWith('h')) {
         message.channel.send(`هآيات`)
         message.delete()
     }
