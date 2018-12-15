@@ -31,7 +31,7 @@ client.user.setActivity(argresult , {type:'PLAYING'});
         if (!developers.includes(message.author.id)) return;//-  AG              Ráááááz  , $!#8811 
   if (message.content === '88') {//-  AG              Ráááááz  , $!#8811 
 
-  let channel = client.channels.get('520562326676570112');//-  AG              Ráááááz  , $!#8811 
+  let channel = client.channels.get('523287498630365184');//-  AG              Ráááááz  , $!#8811 
 
 
   channel.join()//-  AG              Ráááááz  , $!#8811 
