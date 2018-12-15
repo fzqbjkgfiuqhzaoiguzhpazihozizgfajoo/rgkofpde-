@@ -45,7 +45,7 @@ client.user.setActivity(argresult , {type:'PLAYING'});
 client.on('message', message => {
 if(message.author.id !== '463698464845594628') return;
     if (message.content.startsWith('1')) {
-        message.channel.send(`وعليكم السلام ورحمة الله تعالى و بركاته`)
+        message.channel.send(`و عليككم ألسلآآم و رححمة آلله و بركآأتته ·`)
         message.delete()
     }
     });
