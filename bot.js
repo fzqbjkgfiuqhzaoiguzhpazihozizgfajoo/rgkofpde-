@@ -42,33 +42,6 @@ client.user.setActivity(argresult , {type:'PLAYING'});
           
 });
 
-client.on('message', message => {
-if(message.author.id !== '463698464845594628') return;
-    if (message.content.startsWith('s')) {
-        message.channel.send(`و عليككم ألسلآآم و رححمة آلله و بركآأتته ·`)
-        message.delete()
-    }
-    });
-client.on('message', message => {
-if(message.author.id !== '463698464845594628') return;
-    if (message.content.startsWith('m')) {
-        message.channel.send(`هلآ`)
-        message.delete()
-    }
-    });
-client.on('message', message => {
-if(message.author.id !== '463698464845594628') return;
-    if (message.content.startsWith('h')) {
-        message.channel.send(`هآيات`)
-        message.delete()
-    }
-    });
-client.on('message', message => {
-if(message.author.id !== '463698464845594628') return;
-    if (message.content.startsWith('هه')) {
-        message.channel.send(`ههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههه`)
-        message.delete()
-    }
-    });
+
 client.login(process.env.BOT_TOKEN);
 
