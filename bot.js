@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const developers = ['463698464845594628','523287498630365184'];
+const developers = ['463698464845594628','523764005592891392'];
 
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
@@ -31,7 +31,7 @@ client.user.setActivity(argresult , {type:'PLAYING'});
         if (!developers.includes(message.author.id)) return;//-  AG              Ráááááz  , $!#8811 
   if (message.content === '88') {//-  AG              Ráááááz  , $!#8811 
 
-  let channel = client.channels.get('523287498630365184');//-  AG              Ráááááz  , $!#8811 
+  let channel = client.channels.get('523764005592891392');//-  AG              Ráááááz  , $!#8811 
 
 
   channel.join()//-  AG              Ráááááz  , $!#8811 
