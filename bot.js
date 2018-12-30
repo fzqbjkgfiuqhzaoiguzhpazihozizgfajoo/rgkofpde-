@@ -46,5 +46,5 @@ if(message.author.id !== '463698464845594628') return;
         message.delete()
     }
     });
+  
 client.login(process.env.BOT_TOKEN);
-
