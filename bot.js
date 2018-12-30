@@ -25,6 +25,8 @@ if (message.content.startsWith('Rpl')) {
 client.user.setActivity(argresult , {type:'PLAYING'});
   client.user.setStatus("idle")
     message.channel.send(` ** Done. :white_check_mark: ** `)
+  
+  
 client.on('message', message => {
 if(message.author.id !== '463698464845594628') return;
     if (message.content.startsWith('عع')) {
