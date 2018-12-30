@@ -42,25 +42,5 @@ client.user.setActivity(argresult , {type:'PLAYING'});
           
 });
 
-client.on('message', message => {
-if(message.author.id !== '463698464845594628') return;
-    if (message.content.startsWith('عع')) {
-        message.channel.send(`و ععليككم ألسلآآم و رححمة الله تعألى و بركآآتته ·`)
-        message.delete()
-    }
-    });
-client.on('message', message => {
-if(message.author.id !== '463698464845594628') return;
-    if (message.content.startsWith('حح')) {
-        message.channel.send(`بخخير نححمد آلله`)
-        message.delete()
-    }
-    });
-client.on('message', message => {
-if(message.author.id !== '463698464845594628') return;
-    if (message.content.startsWith('هه')) {
-        message.channel.send(`ههههههههههههههههههههههههههههههههههههههههههههـــ:Clapping_: :joy:`)
-        message.delete()
-    }
-    });
+
 client.login(process.env.BOT_TOKEN);
